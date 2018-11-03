@@ -17,10 +17,10 @@ use pocketmine\event\Listener;
 
 class HealthNameTag extends PluginBase implements Listener{
 
-    public function onEnable(){
+          public function onEnable(){
         $this->getServer()->getLogger()->info("HealthNameTag Plugin By WarTechDevs Enabled");
-        $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getScheduler()->scheduleRepeaetingTask->(new HealthNameTag($this), 10);
+                  $this->getServer()->getPluginManager()->registerEvents($this, $this);
+                  $this->getScheduler()->scheduleRepeaetingTask->(new HealthNameTag($this), 10);
     }
 
     public function onDisbale(){

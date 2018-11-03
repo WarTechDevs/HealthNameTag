@@ -3,10 +3,10 @@ api: 3.2.5
 version: 1.0.0
 author: WarTechDevs
 main: HealthNameTag\HealthNameTag
-description: a shit plugin by wartechdevs the absoultley worst but good for servers just starting!
+description: "A Shit Plugin By WarTechDevs The Absoultley Worst But Good For Servers Just Starting!!!"
 commands:
   healthnametag:
-    description: a plugin by wartechdevs
+    description: "A Plugin By WarTechDevs"
     permission: healtnametagcommand.use
 permissions:
  healthnametagcommand.use:

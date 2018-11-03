@@ -1,13 +1,8 @@
 <?php
-
 namespace HealthNameTag;
-
 use pocketmine\event\Listener;
-
 use pocketmine\plugin\PluginBase;
-
 use pocketmine\Server;
-
 class HealthNameTag extends PluginBase implements Listener{
   
 	public function onEnable(){

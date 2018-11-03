@@ -11,4 +11,4 @@ commands:
 permissions:
  healthnametagcommand.use:
   default: op
-  description: Manages The healthNameTag Plugin Enabled Or Disbale The Plugin
+  description: Manages The HealthNameTag Plugin Enabled Or Disbale The Plugin

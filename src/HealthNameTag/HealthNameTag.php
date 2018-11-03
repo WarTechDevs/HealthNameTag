@@ -1,29 +1,22 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: War Tech aka Johnathen
- * Date: 11/2/2018
- * Time: 7:13 PM
- */
-
 namespace HealthNameTag;
-
-use pocketmine\Server;
-
-use pocketmine\PluginBase;
 
 use pocketmine\event\Listener;
 
+use pocketmine\plugin\PluginBase;
+
+use pocketmine\Server;
+
 class HealthNameTag extends PluginBase implements Listener{
-
-          public function onEnable(){
-        $this->getServer()->getLogger()->info("HealthNameTag Plugin By WarTechDevs Enabled");
-                  $this->getServer()->getPluginManager()->registerEvents($this, $this);
-                  $this->getScheduler()->scheduleRepeaetingTask->(new HealthNameTag($this), 10);
-    }
-
-    public function onDisbale(){
-        $this->getServer()->getLogger()->info("HealthNameTag Plugin By WarTechDevs Disabled");
-    }
+  
+	public function onEnable(){
+     $this->getServer()->getLogger()->info("HealthNameTag Plugin Enabled By WarTechDevs");
+		$this->getServer()->getPluginManager()->registerEvents($this,$this);
+	  	$this->getScheduler()->scheduleRepeatingTask(new HealthTask($this),10);
+	}
+    
+	public function onDisable(){
+        $this->getServer()->getLogger()->info("HealthNameTag Plugin Disabled By WarTechDevs");
+	}
 }

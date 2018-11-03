@@ -8,7 +8,3 @@ commands:
   healthnametag:
     description: a plugin by wartechdevs
     permission: healtnametag.use
-
-permissions:
-   healthanametag.use
-       default: false

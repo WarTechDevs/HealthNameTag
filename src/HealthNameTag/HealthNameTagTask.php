@@ -1,13 +1,8 @@
 <?php
-
 namespace HealthNameTag;
-
 use pocketmine\Plugin;
-
 use pocketmine\{Server, Player};
-
 use pocketmine\scheduler\Task;
-
 class HealthNameTagTask extends Task {
     public function __construct($plugin){
         $this->plugin = $plugin;

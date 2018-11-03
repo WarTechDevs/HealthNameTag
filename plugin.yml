@@ -7,4 +7,8 @@ description: a shit plugin by wartechdevs the absoultley worst but good for serv
 commands:
   healthnametag:
     description: a plugin by wartechdevs
-    permission: healtnametag.use
+    permission: healtnametagcommand.use
+permissions:
+ healthnametagcommand.use:
+  default: op
+  description: Manages The healthNameTag Plugin Enabled Or Disbale The Plugin

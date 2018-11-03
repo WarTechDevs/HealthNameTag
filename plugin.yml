@@ -10,5 +10,5 @@ commands:
     permission: healtnametag.use
 
 permissions:
-  healthanametag.use
+   healthanametag.use
    default: false

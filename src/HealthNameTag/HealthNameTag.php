@@ -3,6 +3,7 @@ namespace HealthNameTag;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
+use pocketmine\HealthNameTagCommand;
 class HealthNameTag extends PluginBase implements Listener{
   
 	public function onEnable(){

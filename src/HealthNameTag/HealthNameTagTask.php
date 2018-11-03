@@ -8,7 +8,7 @@ use pocketmine\{Server, Player};
 
 use pocketmine\scheduler\Task;
 
-class HealthNameTag extends Task {
+class HealthNameTagTask extends Task {
     public function __construct($plugin){
         $this->plugin = $plugin;
     }
